@@ -1,0 +1,3 @@
+pgmpy
+matplotlib
+pandas=0.18.1
