@@ -1,6 +1,6 @@
 # Dr. Naive Bayes API
 
-A Flask based API for naive baysian network.
+A Flask based API for a naive baysian network.
 
 ## Running Locally
 
