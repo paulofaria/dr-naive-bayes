@@ -4,7 +4,7 @@ A Flask based API for a naive baysian network.
 
 ## Running Locally
 
-To run the server locally run the commands below (given pip is installed):
+To run the server locally, with pip is installed, run the commands below:
 
 ```sh
 git clone https://github.com/paulofaria/dr-naive-bayes
@@ -12,6 +12,8 @@ cd dr-naive-bayes
 pip install -r requirements.txt
 FLASK_APP=server.py flask run
 ```
+
+The server will take a while to start running since it will first load the model from `hw4_data_long.csv` which requires a lot of memory.
 
 ## Deployment
 
