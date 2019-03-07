@@ -25,6 +25,6 @@ Deploy this application to heroku. Be sure to select a Performance-L dyno since 
 
 The API has a single endpoint `GET /query`. Pass the findings in the URL query, like below:
 
-```
-GET /query?nausea=1&vomiting=1
-```
+[http://localhost:5000/query?nausea=1&vomiting=1](http://localhost:5000/query?nausea=1&vomiting=1)
+
+The response will be a sorted JSON array of objects containing the top 10 most probable diseases. Each object contains the name of the disease and its occurence probability.
